@@ -61,10 +61,13 @@ To compile and execute Bhaashakaar programs, follow these steps:
    ./bhaashakaar sample/hello_world.txt
 
 ### 📂 Example Program (hello_world.txt)
-shuru {
-  likho("Namaste Duniya!");
+program main {
+    sankhya main() {
+        chhap "Hello, World!";
+        return 0;
+    }
 }
-samapti
+ant
 
 ### 💻 System Requirements
 - GCC Compiler
@@ -75,7 +78,7 @@ samapti
 ### ✨ Features
 - Hindi-based syntax for core programming constructs
 - Support for control structures like loops and conditionals
-- Standard output printing with native terms (likho, agar, nahi_to)
+- Standard output printing with native terms 
 - Simple grammar encouraging beginner-friendly programming
 - Ideal for academic projects in compiler design and linguistics integration
 
@@ -84,4 +87,4 @@ samapti
 - Special appreciation to Sahil Agrawal for his contribution and helping me test and refine the language
 
 ### 📚 Inspiration
-Bhaashakaar is more than a compiler project—it's a cultural experiment aimed at merging regional language learning with global tech fluency. It makes programming more inclusive by reflecting the language of its users and bridges the gap between native thought and computational logic.
+Bhaashakaar is more than a compiler project — it's a cultural experiment aimed at merging regional language learning with global tech fluency. It makes programming more inclusive by reflecting the language of its users and bridges the gap between native thought and computational logic.
